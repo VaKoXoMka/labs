@@ -1,0 +1,11 @@
+C:\Users\Vadim\source\repos\mpr2\mpr2\bin\Debug\netcoreapp2.1\mpr2.deps.json
+C:\Users\Vadim\source\repos\mpr2\mpr2\bin\Debug\netcoreapp2.1\mpr2.runtimeconfig.json
+C:\Users\Vadim\source\repos\mpr2\mpr2\bin\Debug\netcoreapp2.1\mpr2.runtimeconfig.dev.json
+C:\Users\Vadim\source\repos\mpr2\mpr2\bin\Debug\netcoreapp2.1\mpr2.dll
+C:\Users\Vadim\source\repos\mpr2\mpr2\bin\Debug\netcoreapp2.1\mpr2.pdb
+C:\Users\Vadim\source\repos\mpr2\mpr2\obj\Debug\netcoreapp2.1\mpr2.csprojAssemblyReference.cache
+C:\Users\Vadim\source\repos\mpr2\mpr2\obj\Debug\netcoreapp2.1\mpr2.csproj.CoreCompileInputs.cache
+C:\Users\Vadim\source\repos\mpr2\mpr2\obj\Debug\netcoreapp2.1\mpr2.AssemblyInfoInputs.cache
+C:\Users\Vadim\source\repos\mpr2\mpr2\obj\Debug\netcoreapp2.1\mpr2.AssemblyInfo.cs
+C:\Users\Vadim\source\repos\mpr2\mpr2\obj\Debug\netcoreapp2.1\mpr2.dll
+C:\Users\Vadim\source\repos\mpr2\mpr2\obj\Debug\netcoreapp2.1\mpr2.pdb
