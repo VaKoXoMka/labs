@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "mpr4": {
+      "commandName": "Project",
+      "commandLineArgs": "run -s pr1"
+    }
+  }
+}

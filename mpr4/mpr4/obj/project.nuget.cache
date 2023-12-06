@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z1yJR3yX3waZC69bLVnHIhxHz1SrQKROhIxSZdYATag/WokL0gA6HLqlSWbaIQhoADDfR10EZYKvwW723R1vkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vadim\\source\\repos\\mpr4\\mpr4\\mpr4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vadim\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
+  "logs": []
+}
