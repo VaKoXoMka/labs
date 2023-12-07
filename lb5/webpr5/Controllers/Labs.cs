@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SampleMvcApp.Controllers
 {
-    public class Labs : Controller
+    public class Lab : Controller
     {
 
         [Authorize]
@@ -18,7 +18,7 @@ namespace SampleMvcApp.Controllers
             => webLib.Lb1.Pr1(input_file, output_file);
 
         [Authorize]
-        public IActionResult Pr2()
+        public IActionResult Lb2()
         {
             return View();
         }
@@ -29,7 +29,7 @@ namespace SampleMvcApp.Controllers
             => webLib.Lb2.Pr2(input_file, output_file);
 
         [Authorize]
-        public IActionResult Pr3()
+        public IActionResult Lb3()
         {
             return View();
         }
