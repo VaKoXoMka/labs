@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            padding-top: 60px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="body_main">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="title">
+                <span>Хоменко Вадим</span>
+            </div>
+            <div class="task">
+                <span>Вибери потрібну:</span>
+            </div>
+            <div class="Lb">
+                <a class="Lb" href="/Lb/Lb1">
+                    <span>1. Монети</span>
+                </a>
+            </div>
+            <div class="Lb">
+                <a class="Lb" href="/Lb/Lb2">
+                    <span>2. Учні</span>
+                </a>
+            </div>
+            <div class="Lb">
+                <a class="Lb" href="/Lb/Lb3">
+                    <span>3. Лабіринт</span>
+                </a>
+            </div>
+        }
+        else
+        {
+            <div class="main">
+                <span>Робота студента групи ІПЗ-44мс Хоменка Вадима</span>
+            </div>
+            <div class="info">
+                <p>Для відображення лабораторних авторизуйтесь у системі</p>
+            </div>
+        }
+    </div>
+</body>
+</html>

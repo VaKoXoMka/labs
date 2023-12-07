@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        div {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .task {
+            margin-bottom: 20px;
+        }
+
+            .task b {
+                font-weight: bold;
+                color: #333;
+            }
+
+            .task span {
+                color: #666;
+            }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .path {
+            margin-bottom: 15px;
+        }
+
+        .caption {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .path_filling input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="title">
+            Лабораторна робота 1
+        </div>
+        <div class="task">
+            <b>Завдання:</b>
+            <span>
+                У чарівній країні використовуються монетки номіналом A1, A2,..., AM. чарівний чоловічок прийшов у магазин і виявив, що він має рівно по дві монетки кожної гідності. Йому потрібно заплатити суму N. Напишіть програму, яка визначає, чи зможе він розплатитися без здачі.
+            </span>
+        </div>
+        <form method="POST">
+            <div class="path">
+                <div class="caption">
+                    <b>Шлях до файлу INPUT.txt:</b>
+                </div>
+                <div class="path_filling">
+                    <input type="text" placeholder="..." name="input_file">
+                </div>
+            </div>
+            <div class="path">
+                <div class="caption">
+                    <b>Шлях до файлу OUTPUT.txt:</b>
+                </div>
+                <div class="path_filling">
+                    <input type="text" placeholder="..." name="output_file">
+                </div>
+            </div>
+            <input type='submit' value='Run' />
+        </form>
+    </div>
+</body>
+</html>

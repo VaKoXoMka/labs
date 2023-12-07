@@ -1,0 +1,22 @@
+﻿@model webpr5.Models.UserModel
+
+<div class="title">
+    <span>Вхід</span>
+</div>
+
+<form asp-action="Login" method="post">
+
+    <div class="form-container">
+        <label class="form-label" asp-for="emailAddress">Email:</label>
+        <input class="form-input" asp-for="emailAddress" type="text" />
+        <span class="form-validation" asp-validation-for="emailAddress"></span>
+    </div>
+
+    <div class="form-container">
+        <label class="form-label" asp-for="password">Пароль:</label>
+        <input class="form-input" asp-for="password" type="password" />
+        <span class="form-validation" asp-validation-for="password"></span>
+    </div>
+
+    <button type="submit" class="form-submit">Вхід</button>
+</form>

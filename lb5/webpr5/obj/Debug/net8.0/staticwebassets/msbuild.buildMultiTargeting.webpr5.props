@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\webpr5.props" />
+</Project>

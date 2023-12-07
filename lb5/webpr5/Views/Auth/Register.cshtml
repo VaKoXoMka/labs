@@ -1,0 +1,44 @@
+﻿@model webpr5.Models.UserModel
+
+<div class="title">
+    <span>Реєстрація користувача</span>
+</div>
+<form asp-action="Register" method="post">
+    <div class="form-container">
+        <label class="form-label" asp-for="name">Нік користувача:</label>
+        <input class="form-input" asp-for="name" />
+        <span class="form-validation" asp-validation-for="name"></span>
+    </div>
+
+    <div class="form-container">
+        <label class="form-label" asp-for="fullName">ПІБ:</label>
+        <input class="form-input" asp-for="fullName" />
+        <span class="form-validation" asp-validation-for="fullName"></span>
+    </div>
+
+    <div class="form-container">
+        <label class="form-label" asp-for="emailAddress">Емейл: </label>
+        <input class="form-input" asp-for="emailAddress" />
+        <span class="form-validation" asp-validation-for="emailAddress"></span>
+    </div>
+
+    <div class="form-container">
+        <label class="form-label" asp-for="phoneNumber">Телефон:</label>
+        <input class="form-input" asp-for="phoneNumber" type="text" />
+        <span class="form-validation" asp-validation-for="phoneNumber"></span>
+    </div>
+
+    <div class="form-container">
+        <label class="form-label" asp-for="password">Пароль:</label>
+        <input class="form-input" asp-for="password" type="password" />
+        <span class="form-validation" asp-validation-for="password"></span>
+    </div>
+
+    <div class="form-container">
+        <label class="form-label" asp-for="confirmedPassword">Повторіть пароль:</label>
+        <input class="form-input" asp-for="confirmedPassword" type="password" />
+        <span class="form-validation" asp-validation-for="confirmedPassword"></span>
+    </div>
+
+    <button type="submit" class="form-submit">Реєстрація</button>
+</form>
