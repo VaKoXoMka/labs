@@ -1,0 +1,11 @@
+C:\Users\Vadim\source\repos\webLib\webLib\bin\Debug\net8.0\webLib.deps.json
+C:\Users\Vadim\source\repos\webLib\webLib\bin\Debug\net8.0\webLib.dll
+C:\Users\Vadim\source\repos\webLib\webLib\bin\Debug\net8.0\webLib.pdb
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\webLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\webLib.AssemblyInfoInputs.cache
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\webLib.AssemblyInfo.cs
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\webLib.csproj.CoreCompileInputs.cache
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\webLib.dll
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\refint\webLib.dll
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\webLib.pdb
+C:\Users\Vadim\source\repos\webLib\webLib\obj\Debug\net8.0\ref\webLib.dll
